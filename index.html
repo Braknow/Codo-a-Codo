@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,200;0,300;0,400;1,200;1,300;1,400&family=Roboto&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Calligraffitti&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://kit.fontawesome.com/b28fed1c38.js" crossorigin="anonymous"></script>
+    <title>Giu.Poked Tattoo</title>
+</head>
+<body>
+    <header>
+        <nav class="nav-container" id="nav">
+            <div class="nav-container-marca">
+                <h4><a data-text="Giu.Poked" class="link-marca" href="#">Giu.Poked</a></h4>
+            </div>
+            <ul class="nav-container-ul">
+                <li class="nav-li"><a data-text="Inicio" href="#">Inicio</a></li>
+                <li class="nav-li submenu-hover"><a data-text="Diseños" href="src/páginas/diseños.html">Diseños</a>
+                    <ul class="nav-container-submenu">
+                        <li><a href="src/páginas/diseños.html">Animales</a></li>
+                        <li><a href="src/páginas/diseños.html">Corazones</a></li>
+                        <li><a href="src/páginas/diseños.html">Flores</a></li>
+                        <li><a href="src/páginas/diseños.html">Frases</a></li>
+                        <li><a href="src/páginas/diseños.html">Halloween</a></li>
+                        <li><a href="src/páginas/diseños.html">Lunas</a></li>
+                        <li><a href="src/páginas/diseños.html">Mariposas</a></li>
+                        <li><a href="src/páginas/diseños.html">Ojos</a></li>
+                        <li><a href="src/páginas/diseños.html">Otros</a></li>
+                    </ul>
+                </li>
+                <li class="nav-li"><a data-text="Trabajos" href="src/páginas/trabajos.html">Trabajos</a></li>
+                <li class="nav-li"><a data-text="Contacto" href="src/páginas/contacto.html">Contacto</a></li>
+            </ul>
+            <div class="nav__responsive">
+                <div class="nav__responsive-button"><i class="fas fa-bars"></i></div>
+                <ul class="nav__responsive-ul">
+                    <li class="nav__responsive-li"><i class="fas fa-home"></i><a href="#">Inicio</a></li>
+                    <li class="nav__responsive-li"><i class="fas fa-pencil-alt"></i><a href="diseños.html">Diseños</a></li>
+                    <li class="nav__responsive-li"><i class="fas fa-user-edit"></i><a href="trabajos.html">Trabajos</a></li>
+                    <li class="nav__responsive-li"><i class="fas fa-envelope"></i><a href="contacto.html">Contacto</a></li>
+                </ul>
+            </div>            
+        </nav>
+    </header>
+    <main>
+        <!-- Carrousel -->
+        <section>
+            <div class="slider">
+                <ul>
+                    <li><img src="src/multimedia/img/carrousel1.jpg" alt="Tattoo1"></li>
+                    <li><img src="src/multimedia/img/carrousel2.jpg" alt="Tattoo2"></li>
+                    <li><img src="src/multimedia/img/carrousel3.jpg" alt="Tattoo3"></li>
+                    <li><img src="src/multimedia/img/carrousel4.jpg" alt="Tattoo4"></li>
+                </ul>
+            </div>
+            <div class="slider-p">
+                <ul>
+                    <li>
+                        <p>Bienvenidos a Giu.Poked Tattoo</p>
+                    </li>
+                    <li>
+                        <p>Los Mejores diseños</p>
+                    </li>
+                    <li>
+                        <p>Mira Nuestros Trabajos!</p>
+                    </li>
+                    <li>
+                        <p>Contactate con nosotros</p>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <section class="grid-container">
+            <div class="grid-item sobreNosotros-div">
+                <h3>Sobre Nosotros</h3>
+                <p>Se realiza sin máquina, utilizando las mismas agujas y tintas que en el método tradicional pero el trabajo es manual, punto por punto, por lo tanto, se tarda un poquito más en realizar el tatuaje.<br>
+                    Es menos invasivo para la piel, el proceso de cicatrización es más corto y duele menos.<br>
+                    Se puede tatuar en cualquier parte del cuerpo, pero es ideal para tatuar dedos, orejas y cuello.
+                    </p>
+            </div>
+            <div class="grid-item sobreNosotros-img">
+                <img src="src/multimedia/img/tattoo.jpg" alt="">
+            </div>
+            <div class="grid-item preguntasFrecuentes-img">
+                <img src="src/multimedia/img/tatuaje.jpg" alt="">
+            </div>
+            <div class="grid-item preguntasFrecuentes-div">
+                <h3>Preguntas Frecuentes</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Facere officia veritatis cumque quod porro 
+                voluptates inventore quam architecto quisquam labore, 
+                maiores assumenda, accusamus vel aperiam enim. Error aperiam ipsam mollitia.
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Facere officia veritatis cumque quod porro 
+                voluptates inventore quam architecto quisquam labore, 
+                maiores assumenda, accusamus vel aperiam enim. Error aperiam ipsam mollitia.
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Facere officia veritatis cumque quod porro 
+                voluptates inventore quam architecto quisquam labore, 
+                maiores assumenda, accusamus vel aperiam enim. Error aperiam ipsam mollitia.</p>
+            </div>
+        </section>
+    </main>
+
+    <!-- Fixed -->
+    <section>
+        <div>
+            <a href="#nav"><div class="irArriba"><i class="fas fa-arrow-up"></i></div></a>
+        </div>
+    </section>
+        
+    <!-- Footer -->
+    <footer class="grid-container-footer">
+        <section class="grid-item-footer">    
+            <h4>Seguinos en nuestras redes sociales</h4>
+            <ul class="rrss">
+                <!-- Iconos de Redes sociales -->
+                <li><a href="https://www.instagram.com/"><i class="fab fa-instagram"></i>@giu.poked</a></li>
+                <li><a href="https://www.facebook.com/"><i class="fab fa-facebook-square"></i>@giu.poked</a></li><br>
+                <li><a href="https://twitter.com/"><i class="fab fa-twitter"></i>@giu.poked</a></li>
+                <li><a href="https://www.pinterest.es/"><i class="fab fa-pinterest"></i>@giu.poked</a></li>
+            </ul>
+            <!-- Linea Divisora -->
+            <hr class="hr1">
+        </section> 
+        <section class="grid-item-footer newsletter">
+            <h4>Suscribite a nuestro Newsletter</h4>
+            <input type="email" placeholder="  Email">
+            <button><i class="far fa-paper-plane"></i></button>
+            <!-- Linea Divisora -->
+            <hr class="hr2">
+        </section>  
+        <section class="grid-item-footer marcas">    
+            <!-- Marcas -->
+            <ul class="marcas-ul">
+                <li><img src="src/multimedia/img/Marcas/black-sheep.png" alt="black-sheep"></li>
+                <li><img src="src/multimedia/img/Marcas/dynamic.png" alt="dynamic"></li>
+                <li><img src="src/multimedia/img/Marcas/eternal-ink.png" alt="eternal-ink"></li>
+                <li><img src="src/multimedia/img/Marcas/tattoo-care.png" alt="tattoo-care"></li>
+            </ul>
+        </section>     
+        <section class="grid-item-footer pagos">
+            <h4>Elegí como pagar</h4>
+            <ul class="pagos-ul">
+                <li><img src="src/multimedia/img/pagos/mastercard.jpg" alt="Mastercard"></li>
+                <li><img src="src/multimedia/img/pagos/visa.png" alt="Visa"></li>
+                <li><img src="src/multimedia/img/pagos/mercadoPago.jpg" alt="MercadoPago"></li>
+            </ul>
+            <p>Copyright 2021, Tatuajes todos los derechos reservados.</p>
+        </section> 
+    </footer>
+</body>
+</html>
